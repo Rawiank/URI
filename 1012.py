@@ -1,0 +1,6 @@
+lista = raw_input("").split(" ")
+print 'TRIANGULO: %.3f' %(float(lista[0]) * float(lista[2])/2)
+print 'CIRCULO: %.3f' %(3.14159 * (float(lista[2]) * float(lista[2])))
+print 'TRAPEZIO: %.3f' %((float(lista[0]) + float(lista[1])) * float(lista[2])/2)
+print 'QUADRADO: %.3f' %(float(lista[1]) * float(lista[1]))
+print 'RETANGULO: %.3f' %(float(lista[0]) * float(lista[1]))
